@@ -14,8 +14,6 @@ The main branch is `gh-pages` to allow Github to serve all this files as static 
 
 You can take individual `JSON` following the project tree structure.
 
-https://acm-planner.github.io/curriculums/static/pregrado/ingenieria/2009/civil-computacion.json
-
 > **Root:** [`https://acm-planner.github.io/curriculums`](https://acm-planner.github.io/curriculums)
 
 #### Example:
