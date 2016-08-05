@@ -1,2 +1,1 @@
-# curriculums
-Mallas curriculares
+# Curriculums
