@@ -12,13 +12,13 @@ This repository contains the curriculums of [Pontifical Catholic University of C
 
 The main branch is `gh-pages` to allow Github to serve all this files as static assets.
 
-You can take individual `JSON` following the project tree structure.
+You can take individual `JSON` following the project directory structure.
 
 > **Root:** [`https://acm-planner.github.io/curriculums`](https://acm-planner.github.io/curriculums)
 
 #### Example:
 
-The file [`static/pregrado/ingenieria/2009/civil-computacion.json`](./static/pregrado/ingenieria/2009/civil-computacion.json) can be accesses at:
+The file [`static/pregrado/ingenieria/2009/civil-computacion.json`](./static/pregrado/ingenieria/2009/civil-computacion.json) can be accessed at:
 
 > [`https://acm-planner.github.io/curriculums/static/pregrado/ingenieria/2009/civil-computacion.json`](https://acm-planner.github.io/curriculums/static/pregrado/ingenieria/2009/civil-computacion.json)
 
@@ -48,14 +48,22 @@ Get this code and install dependencies:
 ```sh
 git clone https://github.com/ACM-Planner/curriculums.git
 cd curriculums
-npm install express cors
+npm install express cors morgan
 npm install
 ```
 
-Start server at port `5000`:
+Start server at port `8000`:
 
 ```sh
 npm start
 ```
 
-Visit [`http://localhost:5000`](http://localhost:5000).
+Visit [`http://localhost:8000`](http://localhost:8000).
+
+This will work identically as the `gh-pages` version. So the following route is available:
+
+> [`http://localhost:8000/static/pregrado/ingenieria/2009/civil-computacion.json`](http://localhost:8000/static/pregrado/ingenieria/2009/civil-computacion.json)
+
+To get all the curriculums you can perform a `GET` to:
+
+> [`http://localhost:8000/tree`](http://localhost:8000/tree)

@@ -26,4 +26,18 @@ describe('loading express', function () {
       .get('/foo/bar')
       .expect(404, done)
   })
+
+  it('still working as gh-pages on the static directory', function (done) {
+    request(app)
+    .get('/static/pregrado/ingenieria/2009/civil-computacion.json')
+    .expect('Content-Type', /json/)
+    .expect(200, done)
+  });
+
+  it('returns the complete tree', function (done) {
+    request(app)
+      .get('/tree')
+      .expect('Content-Type', /json/)
+      .expect(200, done)
+  });
 })
