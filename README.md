@@ -1,6 +1,6 @@
 # Curriculums
 
-[![Build Status](https://travis-ci.org/ACM-Planner/curriculums.svg?branch=gh-pages)](https://travis-ci.org/ACM-Planner/curriculums)
+[![Build Status](https://travis-ci.org/ACM-Planner/curriculums.svg?branch=gh-pages)](https://travis-ci.org/ACM-Planner/curriculums) [![Docker Pulls](https://img.shields.io/docker/pulls/acmplanner/curriculums.svg?maxAge=2592000)](https://hub.docker.com/r/acmplanner/curriculums/)
 
 This repository contains the curriculums of [Pontifical Catholic University of Chile](http://www.uc.cl/) as `JSON` to allow students to create applications.
 
