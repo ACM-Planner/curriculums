@@ -67,3 +67,19 @@ This will work identically as the `gh-pages` version. So the following route is 
 To get all the curriculums you can perform a `GET` to:
 
 > [`http://localhost:8000/tree`](http://localhost:8000/tree)
+
+## Testing
+
+Currently we are only testing the Express.js server. We need to support JSON Schema validations.
+
+Make sure to run before:
+
+```sh
+npm install express cors morgan
+```
+
+Run test suite:
+
+```sh
+npm test
+```
